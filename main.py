@@ -5,5 +5,6 @@ class main:
     print("Difference of 16 & 4 = " +str(m.substract_nums()))
     print("Multiplication of 16 & 4 = " +str(m.multiply_nums()))
     print("Division of 16 & 4 = " +str(m.divide_nums()))
-    
+    f = open("SampleText.txt", "r")
+    print(f.read())
     
